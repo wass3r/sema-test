@@ -10,7 +10,10 @@ jobs:
 
     steps:
     - name: print
+      env:
+        SHHH: ${{ secrets.TESTING }}
       run: |
         echo falafel
         echo "${{ secrets.TESTING }}"
         echo falafel123
+        echo ${shhh}
