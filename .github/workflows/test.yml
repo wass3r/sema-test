@@ -1,0 +1,13 @@
+name: spec
+
+on:
+  push:
+
+# pipeline to execute
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print
+      run: echo falafel
