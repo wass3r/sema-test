@@ -10,4 +10,6 @@ jobs:
 
     steps:
     - name: print
-      run: echo falafel
+      run: |
+        echo falafel
+        echo ${secrets.TESTING}
