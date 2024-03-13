@@ -13,3 +13,4 @@ jobs:
       run: |
         echo falafel
         echo "${{ secrets.TESTING }}"
+        echo falafel123
