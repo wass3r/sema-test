@@ -12,4 +12,4 @@ jobs:
     - name: print
       run: |
         echo falafel
-        echo ${secrets.TESTING}
+        echo "${{ secrets.TESTING }}"
