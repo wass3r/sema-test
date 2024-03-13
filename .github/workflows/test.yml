@@ -16,4 +16,4 @@ jobs:
         echo falafel
         echo "${{ secrets.TESTING }}"
         echo falafel123
-        echo ${SHHH}
+        echo ${SHHH:2}
